@@ -1,3 +1,8 @@
+Run Apache Kafka on Harness CI
+==================================
+https://github.com/harness-community/kafka/blob/trunk/.harness/README.md
+
+
 Apache Kafka
 =================
 See our [web site](https://kafka.apache.org) for details on the project.
