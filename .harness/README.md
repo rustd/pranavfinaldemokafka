@@ -8,7 +8,7 @@ With Harness CI, test executions are fast with intelligent test `selection` and 
 # Setting up this pipeline on Harness CI
 
  1. Create a [GitHub Account](https://github.com) or use an existing one
- 2. Fork [this repository](https://github.com/harness-community/kafka-demo/fork) into your GitHub account. 
+ 2. Fork [this repository](https://github.com/harness-community/kafka/fork) into your GitHub account. 
  3. Signup for [Harness](https://app.harness.io/auth/#/signup)
  4. Select the `Continuous Integration` module and complete the `Get Started` wizard to create your first pipeline using the forked repo from #2.
  5. Go to the newly created pipeline and hit the `Triggers`tab. If everything went well, you should see two triggers auto-created. A `Pull Request`trigger and a `Push`trigger. For this exercise, we only need `Pull Request`trigger to be enabled. So, please disable or delete the `Push`trigger.
