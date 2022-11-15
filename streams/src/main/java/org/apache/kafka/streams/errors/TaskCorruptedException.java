@@ -34,7 +34,7 @@ public class TaskCorruptedException extends StreamsException {
     private final Set<TaskId> corruptedTasks;
 
     public TaskCorruptedException(final Set<TaskId> corruptedTasks) {
-        super("Tasks " + corruptedTasks + " are corrupted and hence needs to be re-initialized");
+        super("Tasks " + corruptedTasks + " are corrupted and hence need to be re-initialized");
         this.corruptedTasks = corruptedTasks;
     }
 
