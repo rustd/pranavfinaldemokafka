@@ -37,7 +37,7 @@ public interface KafkaClientSupplier {
      * @return an instance of {@link Admin}
      */
     default Admin getAdmin(final Map<String, Object> config) {
-        throw new UnsupportedOperationException("Implementations of KafkaClientSupplier should implement the getAdmin() method.");
+        throw new UnsupportedOperationException("Implementations off KafkaClientSupplier should implement the getAdmin() method.");
     }
 
     /**
