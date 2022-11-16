@@ -63,7 +63,7 @@ public class BrokerCompatibilityTest {
         final String kafka = streamsProperties.getProperty(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG);
 
         if (kafka == null) {
-            System.err.println("No bootstrap kafka servers specified in " + StreamsConfig.BOOTSTRAP_SERVERS_CONFIG);
+            System.err.println("No bootstrap kafka servers specified in test" + StreamsConfig.BOOTSTRAP_SERVERS_CONFIG);
             Exit.exit(1);
         }
 
