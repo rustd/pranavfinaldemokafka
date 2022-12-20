@@ -1,0 +1,55 @@
+pipeline:
+  name: kafka
+  identifier: kafka
+  projectIdentifier: pranavt1
+  orgIdentifier: default
+  tags: {}
+  properties:
+    ci:
+      codebase:
+        connectorRef: pranavgithub
+        repoName: pranavfinaldemokafka
+        build: <+input>
+  stages:
+    - stage:
+        name: build
+        identifier: build
+        description: ""
+        type: CI
+        spec:
+          cloneCodebase: true
+          caching:
+            enabled: true
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Echo Welcome Message
+                  identifier: Run
+                  spec:
+                    shell: Sh
+                    command: echo "Welcome to Harness CI"
+              - step:
+                  type: RunTests
+                  name: runtest
+                  identifier: runtest
+                  spec:
+                    language: Java
+                    buildTool: Gradle
+                    args: "--build-cache unitTest -PmaxParallelForks=32 -PignoreFailures=true"
+                    packages: org.apache.kafka,kafka.test,kafka.testkit,kafka.server,kafka.tools,kafka.examples,test.plugins
+                    runOnlySelectedTests: true
+                    enableTestSplitting: true
+                    reports:
+                      type: JUnit
+                      spec:
+                        paths:
+                          - "**/*.xml"
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
+        strategy:
+          parallelism: 3
