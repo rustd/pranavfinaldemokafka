@@ -51,5 +51,3 @@ pipeline:
           runtime:
             type: Cloud
             spec: {}
-        strategy:
-          parallelism: 3
