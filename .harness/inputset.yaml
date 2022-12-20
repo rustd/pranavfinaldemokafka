@@ -1,0 +1,14 @@
+inputSet:
+  identifier: "inputset1"
+  name: "inputset1"
+  orgIdentifier: "default"
+  projectIdentifier: "pranavt1"
+  pipeline:
+    identifier: "kafka"
+    properties:
+      ci:
+        codebase:
+          build:
+            type: "PR"
+            spec:
+              number: "<+trigger.prNumber>"
