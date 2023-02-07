@@ -19,7 +19,7 @@ pipeline:
         spec:
           cloneCodebase: true
           caching:
-            enabled: false
+            enabled: true
           execution:
             steps:
               - step:
