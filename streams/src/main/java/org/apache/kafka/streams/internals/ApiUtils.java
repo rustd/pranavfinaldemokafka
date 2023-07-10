@@ -31,6 +31,12 @@ public final class ApiUtils {
     private static final String VALIDATE_MILLISECOND_OVERFLOW_SUFFIX = "It can't be converted to milliseconds.";
 
     private ApiUtils() {
+     /**
+     * Validates that milliseconds from {@code duration} can be retrieved.
+     * @param duration Duration to check.
+     * @param messagePrefix Prefix text for an error message.
+     * @return Milliseconds from {@code duration}.
+     */
     }
 
     /**
