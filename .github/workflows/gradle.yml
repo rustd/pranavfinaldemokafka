@@ -1,8 +1,8 @@
-pname: Java Build with Gradle
+name: Java Build with Gradle
 
 on:
   pull_request:
-    branches: [ "develop" ]
+    branches: [ "trunk" ]
 
 permissions:
   contents: read
