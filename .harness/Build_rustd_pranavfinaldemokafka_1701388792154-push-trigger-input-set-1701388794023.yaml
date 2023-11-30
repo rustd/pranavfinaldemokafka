@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rustd_pranavfinaldemokafka_1701388792154-push-trigger-input-set
+  identifier: Build_rustd_pranavfinaldemokafka_1701388792154pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_rustd_pranavfinaldemokafka_1701388792154
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
