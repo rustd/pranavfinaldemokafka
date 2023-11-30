@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rustd_pranavfinaldemokafka_1701385391753-pr-trigger-input-set
+  identifier: Build_rustd_pranavfinaldemokafka_1701385391753prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rustd_pranavfinaldemokafka_1701385391753
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
