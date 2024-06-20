@@ -77,7 +77,7 @@ public class InFlightRequestsTest {
         addRequest("B", time.milliseconds(), 200);
         addRequest("B", time.milliseconds(), 100);
 
-        time.sleep(50);
+        time.sleep(60);
         assertEquals(Collections.emptyList(), inFlightRequests.nodesWithTimedOutRequests(time.milliseconds()));
 
         time.sleep(25);
