@@ -1,4 +1,4 @@
-Run Apache Kafka on Harness CI
+Run Apache Kafka on Harness CI2
 ==================================
 https://github.com/harness-community/kafka/blob/trunk/.harness/README.md
 
