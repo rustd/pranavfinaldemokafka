@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kafka.Streams</id>
+    <version>1.0.0</version>
+    <authors>Apache Kafka .NET Port</authors>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <description>Apache Kafka .NET stream processing library</description>
+    <repository type="git" commit="60b32daf52686c897930a3f131ea3743c7787584" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Kafka.Clients" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Kafka.Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reactive" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/engine/project/src/Kafka.Streams/bin/Debug/net8.0/Kafka.Streams.dll" target="lib/net8.0/Kafka.Streams.dll" />
+  </files>
+</package>

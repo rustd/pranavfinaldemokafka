@@ -1,0 +1,13 @@
+/home/engine/project/src/Kafka.Common/bin/Debug/net8.0/Kafka.Common.deps.json
+/home/engine/project/src/Kafka.Common/bin/Debug/net8.0/Kafka.Common.dll
+/home/engine/project/src/Kafka.Common/bin/Debug/net8.0/Kafka.Common.pdb
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/Kafka.Common.csproj.AssemblyReference.cache
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/Kafka.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/Kafka.Common.AssemblyInfoInputs.cache
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/Kafka.Common.AssemblyInfo.cs
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/Kafka.Common.csproj.CoreCompileInputs.cache
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/Kafka.Common.sourcelink.json
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/Kafka.Common.dll
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/refint/Kafka.Common.dll
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/Kafka.Common.pdb
+/home/engine/project/src/Kafka.Common/obj/Debug/net8.0/ref/Kafka.Common.dll

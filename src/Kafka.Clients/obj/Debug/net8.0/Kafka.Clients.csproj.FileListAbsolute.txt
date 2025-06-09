@@ -1,0 +1,16 @@
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Clients.csproj.AssemblyReference.cache
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Clients.GeneratedMSBuildEditorConfig.editorconfig
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Clients.AssemblyInfoInputs.cache
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Clients.AssemblyInfo.cs
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Clients.csproj.CoreCompileInputs.cache
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Clients.sourcelink.json
+/home/engine/project/src/Kafka.Clients/bin/Debug/net8.0/Kafka.Clients.deps.json
+/home/engine/project/src/Kafka.Clients/bin/Debug/net8.0/Kafka.Clients.dll
+/home/engine/project/src/Kafka.Clients/bin/Debug/net8.0/Kafka.Clients.pdb
+/home/engine/project/src/Kafka.Clients/bin/Debug/net8.0/Kafka.Common.dll
+/home/engine/project/src/Kafka.Clients/bin/Debug/net8.0/Kafka.Common.pdb
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Cl.D1ED976C.Up2Date
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Clients.dll
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/refint/Kafka.Clients.dll
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/Kafka.Clients.pdb
+/home/engine/project/src/Kafka.Clients/obj/Debug/net8.0/ref/Kafka.Clients.dll
