@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/engine/project/src/Kafka.Streams/Kafka.Streams.csproj": {}
+  },
+  "projects": {
+    "/home/engine/project/src/Kafka.Clients/Kafka.Clients.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/engine/project/src/Kafka.Clients/Kafka.Clients.csproj",
+        "projectName": "Kafka.Clients",
+        "projectPath": "/home/engine/project/src/Kafka.Clients/Kafka.Clients.csproj",
+        "packagesPath": "/home/engine/.nuget/packages/",
+        "outputPath": "/home/engine/project/src/Kafka.Clients/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/engine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/engine/project/src/Kafka.Common/Kafka.Common.csproj": {
+                "projectPath": "/home/engine/project/src/Kafka.Common/Kafka.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/engine/.dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/engine/project/src/Kafka.Common/Kafka.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/engine/project/src/Kafka.Common/Kafka.Common.csproj",
+        "projectName": "Kafka.Common",
+        "projectPath": "/home/engine/project/src/Kafka.Common/Kafka.Common.csproj",
+        "packagesPath": "/home/engine/.nuget/packages/",
+        "outputPath": "/home/engine/project/src/Kafka.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/engine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/engine/.dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/engine/project/src/Kafka.Streams/Kafka.Streams.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/engine/project/src/Kafka.Streams/Kafka.Streams.csproj",
+        "projectName": "Kafka.Streams",
+        "projectPath": "/home/engine/project/src/Kafka.Streams/Kafka.Streams.csproj",
+        "packagesPath": "/home/engine/.nuget/packages/",
+        "outputPath": "/home/engine/project/src/Kafka.Streams/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/engine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/engine/project/src/Kafka.Clients/Kafka.Clients.csproj": {
+                "projectPath": "/home/engine/project/src/Kafka.Clients/Kafka.Clients.csproj"
+              },
+              "/home/engine/project/src/Kafka.Common/Kafka.Common.csproj": {
+                "projectPath": "/home/engine/project/src/Kafka.Common/Kafka.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/engine/.dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
